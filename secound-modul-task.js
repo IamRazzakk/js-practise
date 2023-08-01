@@ -46,3 +46,26 @@
 // }
 // var i = ["html","html5", "css", "css3", "tailwind css", "daisy ui", "js"]
 // Complite problem 7
+
+// for(var i = 30; i < 86; i++){
+//     if(i >= 44){
+//         break
+//     }
+//     console.log(i)
+// }
+
+// var i = 30;
+// while(i < 86){
+//     if(i > 46){
+//         break
+//     }
+//     i++
+//     console.log(i);
+// }
+var booksPrice = [110,130,190,200,250,350, 30.10, 100,90]
+for(var i = 0; i < booksPrice.length; i++){
+    if(booksPrice[i] >= 200){
+        continue
+    }
+    console.log(booksPrice[i]);
+}
